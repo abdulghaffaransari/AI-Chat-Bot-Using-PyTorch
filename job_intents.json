@@ -1,0 +1,131 @@
+{
+    "intents": [{
+
+            "tag": "Greeting_health",
+            "patterns": [
+                "How are you doing",
+                "How are you going",
+                "How are you",
+                "How your life is going",
+                "How have you been",
+                "How's everything"
+            ],
+            "responses": [
+                "I am Fine",
+                "I am Good",
+                "I'm good",
+                "I'm great, thanks!"
+            ]
+        },
+        {
+            "tag": "greeting",
+            "patterns": [
+                "AOA",
+                "Hellow",
+                "Hi",
+                "Hey",
+                "Is anyone there?",
+                "Hello",
+                "Good day",
+                "What's going on",
+                "What's new",
+                "What's up",
+                "Whassup"
+            ],
+            "responses": [
+                "Hey",
+                "Hello, thanks for visiting",
+                "Hi there, what can I do for you?",
+                "Hi there, how can I help?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye", "bye-bye"],
+            "responses": [
+                "See you later, thanks for visiting.",
+                "Have a nice day.",
+                "Bye! Come back again soon.",
+                "It was nice to see you again.",
+                "Bye, Take Care.",
+                "Bye,If you need any assistance, I'm always here."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+            "responses": ["Happy to help!", "Any time!", "My pleasure", "Please come again"]
+        },
+        {
+            "tag": "About",
+            "patterns": [
+                "I want to know about your comapny",
+                "I want to know about SayabiDevs",
+                "Tell me about your company",
+                "Tell me about this software house",
+                "Tell me about SayabiDevs"
+            ],
+            "responses": [
+                "SayabiDevs is a startup birthed by passionate and experienced domain experts and motivated individuals who love working together as a team, and is here to provide effective and on-time solutions to your IT problems. We at SayabiDevs put in our all to elevate your business to the highest level and plan on soaring high in the world of IT. For us, every opportunity is a path we shall bravely endeavor, and every client is a family that we love, respect, and cherish. We love to help businesses flourish so who else would your business Rev, but SayabiDevs! ",
+                "We at SayabiDevs put in our all to elevate your business to the highest level and plan on soaring high in the world of IT. For us, every opportunity is a path we shall bravely endeavor, and every client is a family that we love, respect, and cherish. We love to help businesses flourish so who else would your business Rev, but SayabiDevs!"
+            ]
+        },
+        {
+            "tag": "Services",
+            "patterns": [
+                "Which services do you have?",
+                "What kinds of services are there?",
+                "What are the services you provide",
+                "Tell me about your services",
+                "Your Services"
+            ],
+            "responses": [
+                "Our Services are WEB & APP DEVELOPMENT,ARTIFICIAL INTELLIGENCE, and DATA SCIENCE"
+            ]
+        },
+        {
+            "tag": "payments",
+            "patterns": [
+                "Do you take credit cards?",
+                "Do you accept Mastercard?",
+                "Can I pay with Paypal?",
+                "Are you cash only?",
+                "What is the payment method",
+                "How can I pay"
+            ],
+            "responses": [
+                "We accept VISA, Mastercard and Paypal",
+                "We accept most major credit cards, and Paypal"
+            ]
+        },
+        {
+            "tag": "delivery",
+            "patterns": [
+                "How long does delivery take ?",
+                "When do I get my delivery?",
+                "How long does one project take",
+                "What is the delivery time of a single project",
+                "what is the delivery time period of a project",
+                "Tell me about your delivery service"
+
+            ],
+            "responses": [
+                "it's totally depends on the your requirments in project"
+            ]
+        },
+        {
+            "tag": "Name",
+            "patterns": [
+                "What is your name",
+                "Tell me something funny!",
+                "Do you know a joke?",
+                "tell me your name",
+                "whas your name",
+                "please state your name"
+            ],
+            "responses": [
+                "I am SayabiDevs AI Agent, You can call me Alecca"
+            ]
+        }
+    ]
+}
