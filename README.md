@@ -1,23 +1,23 @@
 # AI-Chat-Bot-Using-PyTorch
 
-## Download Anaconda
-## install these packages in anaconda prompt
+1: Download Anaconda
+2: install these packages in anaconda prompt
         conda install numpy
         conda install nltk
         conda install pytorch
         
-## Open python 
+3: Open python 
     $ python
     >>> import nltk
     >>> nltk.download('punkt')
     
-## Install Vs Code from anaconda3 app
-## Open Vs Code from Anaconda3 app
+4: Install Vs Code from anaconda3 app
+5: Open Vs Code from Anaconda3 app
 
-## run chatbot.py for train the model
-## run app.py 
+6: run chatbot.py for train the model
+7: run app.py 
 
-## write in your browser 
+8: write in your browser 
     localhost:8888
     
-## and Play
+9: and Play
